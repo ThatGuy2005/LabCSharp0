@@ -28,6 +28,7 @@ namespace LabCSharp0
             {
                 option.Text = "UP";
                 textBox1.Text = "UP";
+                this.Location = new Point(this.Location.X, this.Location.Y - 10);
             }
             else
             {
@@ -42,6 +43,7 @@ namespace LabCSharp0
             {
                 option.Text = "LEFT";
                 textBox1.Text = "LEFT";
+                this.Location = new Point(this.Location.X - 10, this.Location.Y);
             }
             else
             {
@@ -56,6 +58,7 @@ namespace LabCSharp0
             {
                 option.Text = "DOWN";
                 textBox1.Text = "DOWN";
+                this.Location = new Point(this.Location.X, this.Location.Y + 10);
             }
             else
             {
@@ -70,6 +73,7 @@ namespace LabCSharp0
             {
                 option.Text = "RIGHT";
                 textBox1.Text = "RIGHT";
+                this.Location = new Point(this.Location.X + 10, this.Location.Y);
             }
             else
             {
